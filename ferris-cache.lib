@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_D
+# ferris-rescue_D-Device
 #
-DEF Device_D D 0 40 N N 1 F N
+DEF ferris-rescue_D-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device_D" 0 -100 50 H V C CNN
+F1 "ferris-rescue_D-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -23,11 +23,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# kbd_ProMicro_r
+# ferris-rescue_ProMicro_r-kbd
 #
-DEF kbd_ProMicro_r U 0 40 Y Y 1 F N
+DEF ferris-rescue_ProMicro_r-kbd U 0 40 Y Y 1 F N
 F0 "U" 50 900 60 H V C CNN
-F1 "kbd_ProMicro_r" 50 -600 60 H V C CNN
+F1 "ferris-rescue_ProMicro_r-kbd" 50 -600 60 H V C CNN
 F2 "" 150 -1050 60 H V C CNN
 F3 "" 150 -1050 60 H V C CNN
 DRAW
@@ -59,11 +59,11 @@ X D7/6 9 750 -100 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# kbd_SW_PUSH
+# ferris-rescue_SW_PUSH-kbd
 #
-DEF kbd_SW_PUSH SW 0 40 N N 1 F N
+DEF ferris-rescue_SW_PUSH-kbd SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "kbd_SW_PUSH" 0 -80 50 H V C CNN
+F1 "ferris-rescue_SW_PUSH-kbd" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW

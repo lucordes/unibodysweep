@@ -10,4 +10,5 @@
   (lib (name Regulator_Linear)(type Legacy)(uri ${KIPRJMOD}/../../sym/kicad_library/Regulator_Linear.lib)(options "")(descr ""))
   (lib (name Transistor_BJT)(type Legacy)(uri ${KIPRJMOD}/../../sym/kicad_library/Transistor_BJT.lib)(options "")(descr ""))
   (lib (name Diode)(type Legacy)(uri ${KIPRJMOD}/../../sym/kicad_library/Diode.lib)(options "")(descr ""))
+  (lib (name ferris-rescue)(type Legacy)(uri ${KIPRJMOD}/ferris-rescue.lib)(options "")(descr ""))
 )

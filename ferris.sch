@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L kbd:SW_PUSH K0_0
+L ferris-rescue:SW_PUSH-kbd K0_0
 U 1 1 5EE18079
 P 1350 1200
 F 0 "K0_0" H 1350 1433 60  0000 C CNN
@@ -29,7 +29,7 @@ F 7 "Key" H 1350 1200 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D0_0
+L ferris-rescue:D-Device D0_0
 U 1 1 5EE1B34F
 P 1050 1350
 F 0 "D0_0" V 1096 1270 50  0000 R CNN
@@ -50,7 +50,7 @@ Wire Wire Line
 Text Label 900  2100 2    50   ~ 0
 row0,1
 $Comp
-L kbd:SW_PUSH K1_0
+L ferris-rescue:SW_PUSH-kbd K1_0
 U 1 1 5EE22042
 P 1350 1800
 F 0 "K1_0" H 1350 2033 60  0000 C CNN
@@ -64,7 +64,7 @@ F 6 "Key" H 1350 1800 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D1_0
+L ferris-rescue:D-Device D1_0
 U 1 1 5EE22835
 P 1050 1950
 F 0 "D1_0" V 1096 1870 50  0000 R CNN
@@ -81,7 +81,7 @@ Wire Wire Line
 Text Label 2350 900  0    50   ~ 0
 col1
 $Comp
-L Device:D D0_1
+L ferris-rescue:D-Device D0_1
 U 1 1 5EE44032
 P 1750 1350
 F 0 "D0_1" V 1796 1270 50  0000 R CNN
@@ -97,7 +97,7 @@ Wire Wire Line
 	1050 1500 1750 1500
 Connection ~ 1050 1500
 $Comp
-L Device:D D1_1
+L ferris-rescue:D-Device D1_1
 U 1 1 5EE478DC
 P 1750 1950
 F 0 "D1_1" V 1796 1870 50  0000 R CNN
@@ -110,7 +110,7 @@ F 5 "Diode" H 1750 1950 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH K1_1
+L ferris-rescue:SW_PUSH-kbd K1_1
 U 1 1 5EE47E8A
 P 2050 1800
 F 0 "K1_1" H 2050 2033 60  0000 C CNN
@@ -127,7 +127,7 @@ Wire Wire Line
 	1050 2100 1750 2100
 Connection ~ 1050 2100
 $Comp
-L Device:D D0_2
+L ferris-rescue:D-Device D0_2
 U 1 1 5EE8DCFE
 P 2450 1350
 F 0 "D0_2" V 2496 1270 50  0000 R CNN
@@ -140,7 +140,7 @@ F 5 "Diode" H 2450 1350 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH K0_1
+L ferris-rescue:SW_PUSH-kbd K0_1
 U 1 1 5EEBC822
 P 2000 1150
 F 0 "K0_1" H 2000 1383 60  0000 C CNN
@@ -159,7 +159,7 @@ Wire Wire Line
 	1750 1500 2450 1500
 Connection ~ 1750 1500
 $Comp
-L kbd:SW_PUSH K1_2
+L ferris-rescue:SW_PUSH-kbd K1_2
 U 1 1 5EECD1C4
 P 2750 1800
 F 0 "K1_2" H 2750 2033 60  0000 C CNN
@@ -173,7 +173,7 @@ F 6 "Key" H 2750 1800 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D1_2
+L ferris-rescue:D-Device D1_2
 U 1 1 5EED29B3
 P 2450 1950
 F 0 "D1_2" V 2496 1870 50  0000 R CNN
@@ -186,7 +186,7 @@ F 5 "Diode" H 2450 1950 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH K2_0
+L ferris-rescue:SW_PUSH-kbd K2_0
 U 1 1 5EED2FA2
 P 1350 2400
 F 0 "K2_0" H 1350 2633 60  0000 C CNN
@@ -202,7 +202,7 @@ $EndComp
 Text Label 900  2700 2    50   ~ 0
 row0,2
 $Comp
-L Device:D D2_0
+L ferris-rescue:D-Device D2_0
 U 1 1 5EED3821
 P 1050 2550
 F 0 "D2_0" V 1096 2470 50  0000 R CNN
@@ -215,7 +215,7 @@ F 5 "Diode" H 1050 2550 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH K2_1
+L ferris-rescue:SW_PUSH-kbd K2_1
 U 1 1 5EED5B60
 P 2050 2400
 F 0 "K2_1" H 2050 2633 60  0000 C CNN
@@ -229,7 +229,7 @@ F 6 "Key" H 2050 2400 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH K2_2
+L ferris-rescue:SW_PUSH-kbd K2_2
 U 1 1 5EED6065
 P 2750 2400
 F 0 "K2_2" H 2750 2633 60  0000 C CNN
@@ -246,7 +246,7 @@ Wire Wire Line
 	1750 2100 2450 2100
 Connection ~ 1750 2100
 $Comp
-L Device:D D2_1
+L ferris-rescue:D-Device D2_1
 U 1 1 5EEEC45B
 P 1750 2550
 F 0 "D2_1" V 1796 2470 50  0000 R CNN
@@ -259,7 +259,7 @@ F 5 "Diode" H 1750 2550 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D2_2
+L ferris-rescue:D-Device D2_2
 U 1 1 5EEECA76
 P 2450 2550
 F 0 "D2_2" V 2496 2470 50  0000 R CNN
@@ -280,7 +280,7 @@ Connection ~ 1750 2700
 Wire Wire Line
 	1750 2700 2450 2700
 $Comp
-L kbd:SW_PUSH K0_3
+L ferris-rescue:SW_PUSH-kbd K0_3
 U 1 1 5EEF6C30
 P 3450 1200
 F 0 "K0_3" H 3450 1433 60  0000 C CNN
@@ -294,7 +294,7 @@ F 6 "Key" H 3450 1200 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH K1_3
+L ferris-rescue:SW_PUSH-kbd K1_3
 U 1 1 5EEF70F9
 P 3450 1800
 F 0 "K1_3" H 3450 2033 60  0000 C CNN
@@ -308,7 +308,7 @@ F 6 "Key" H 3450 1800 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH K2_3
+L ferris-rescue:SW_PUSH-kbd K2_3
 U 1 1 5EEF764A
 P 3450 2400
 F 0 "K2_3" H 3450 2633 60  0000 C CNN
@@ -322,7 +322,7 @@ F 6 "Key" H 3450 2400 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D0_3
+L ferris-rescue:D-Device D0_3
 U 1 1 5EEF7A7A
 P 3150 1350
 F 0 "D0_3" V 3196 1270 50  0000 R CNN
@@ -335,7 +335,7 @@ F 5 "Diode" H 3150 1350 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D1_3
+L ferris-rescue:D-Device D1_3
 U 1 1 5EEF7F2D
 P 3150 1950
 F 0 "D1_3" V 3196 1870 50  0000 R CNN
@@ -348,7 +348,7 @@ F 5 "Diode" H 3150 1950 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D2_3
+L ferris-rescue:D-Device D2_3
 U 1 1 5EEF838C
 P 3150 2550
 F 0 "D2_3" V 3196 2470 50  0000 R CNN
@@ -361,7 +361,7 @@ F 5 "Diode" H 3150 2550 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH K0_4
+L ferris-rescue:SW_PUSH-kbd K0_4
 U 1 1 5EEF9889
 P 4150 1200
 F 0 "K0_4" H 4150 1433 60  0000 C CNN
@@ -375,7 +375,7 @@ F 6 "Key" H 4150 1200 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D0_4
+L ferris-rescue:D-Device D0_4
 U 1 1 5EEFA013
 P 3850 1350
 F 0 "D0_4" V 3896 1270 50  0000 R CNN
@@ -388,7 +388,7 @@ F 5 "Diode" H 3850 1350 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH K1_4
+L ferris-rescue:SW_PUSH-kbd K1_4
 U 1 1 5EEFA968
 P 4150 1800
 F 0 "K1_4" H 4150 2033 60  0000 C CNN
@@ -402,7 +402,7 @@ F 6 "Key" H 4150 1800 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D1_4
+L ferris-rescue:D-Device D1_4
 U 1 1 5EEFB5C1
 P 3850 1950
 F 0 "D1_4" V 3896 1870 50  0000 R CNN
@@ -415,7 +415,7 @@ F 5 "Diode" H 3850 1950 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH K2_4
+L ferris-rescue:SW_PUSH-kbd K2_4
 U 1 1 5EEFBA25
 P 4150 2400
 F 0 "K2_4" H 4150 2633 60  0000 C CNN
@@ -429,7 +429,7 @@ F 6 "Key" H 4150 2400 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D2_4
+L ferris-rescue:D-Device D2_4
 U 1 1 5EEFC892
 P 3850 2550
 F 0 "D2_4" V 3896 2470 50  0000 R CNN
@@ -465,7 +465,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 2700 3150 2700
 $Comp
-L kbd:SW_PUSH K3_3
+L ferris-rescue:SW_PUSH-kbd K3_3
 U 1 1 5EF1C6CA
 P 3450 3000
 F 0 "K3_3" H 3450 3233 60  0000 C CNN
@@ -479,7 +479,7 @@ F 6 "Key" H 3450 3000 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH K3_4
+L ferris-rescue:SW_PUSH-kbd K3_4
 U 1 1 5EF1CAA2
 P 4150 3000
 F 0 "K3_4" H 4150 3233 60  0000 C CNN
@@ -493,7 +493,7 @@ F 6 "Key" H 4150 3000 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D3_3
+L ferris-rescue:D-Device D3_3
 U 1 1 5EF1DB01
 P 3150 3150
 F 0 "D3_3" V 3196 3070 50  0000 R CNN
@@ -506,7 +506,7 @@ F 5 "Diode" H 3150 3150 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D3_4
+L ferris-rescue:D-Device D3_4
 U 1 1 5EF1DFD1
 P 3850 3150
 F 0 "D3_4" V 3896 3070 50  0000 R CNN
@@ -526,7 +526,7 @@ Wire Wire Line
 	3850 1500 4450 1500
 Connection ~ 3850 1500
 $Comp
-L kbd:SW_PUSH K0_5
+L ferris-rescue:SW_PUSH-kbd K0_5
 U 1 1 5FD3ADBA
 P 7450 1200
 F 0 "K0_5" H 7450 1433 60  0000 C CNN
@@ -540,7 +540,7 @@ F 6 "Key" H 7450 1200 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D0_5
+L ferris-rescue:D-Device D0_5
 U 1 1 5FD3ADC4
 P 7150 1350
 F 0 "D0_5" V 7196 1270 50  0000 R CNN
@@ -559,7 +559,7 @@ Wire Wire Line
 Text Label 8450 900  0    50   ~ 0
 col6
 $Comp
-L Device:D D0_6
+L ferris-rescue:D-Device D0_6
 U 1 1 5FD3ADEC
 P 7850 1350
 F 0 "D0_6" V 7896 1270 50  0000 R CNN
@@ -575,7 +575,7 @@ Wire Wire Line
 	7150 1500 7850 1500
 Connection ~ 7150 1500
 $Comp
-L Device:D D1_6
+L ferris-rescue:D-Device D1_6
 U 1 1 5FD3ADF8
 P 7850 1950
 F 0 "D1_6" V 7896 1870 50  0000 R CNN
@@ -588,7 +588,7 @@ F 5 "Diode" H 7850 1950 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH K1_6
+L ferris-rescue:SW_PUSH-kbd K1_6
 U 1 1 5FD3AE02
 P 8150 1800
 F 0 "K1_6" H 8150 2033 60  0000 C CNN
@@ -602,7 +602,7 @@ F 6 "Key" H 8150 1800 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH K0_7
+L ferris-rescue:SW_PUSH-kbd K0_7
 U 1 1 5FD3AE0F
 P 8850 1200
 F 0 "K0_7" H 8850 1433 60  0000 C CNN
@@ -616,7 +616,7 @@ F 6 "Key" H 8850 1200 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D0_7
+L ferris-rescue:D-Device D0_7
 U 1 1 5FD3AE19
 P 8550 1350
 F 0 "D0_7" V 8596 1270 50  0000 R CNN
@@ -629,7 +629,7 @@ F 5 "Diode" H 8550 1350 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH K0_6
+L ferris-rescue:SW_PUSH-kbd K0_6
 U 1 1 5FD3AE23
 P 8150 1200
 F 0 "K0_6" H 8150 1433 60  0000 C CNN
@@ -648,7 +648,7 @@ Wire Wire Line
 	7850 1500 8550 1500
 Connection ~ 7850 1500
 $Comp
-L kbd:SW_PUSH K1_7
+L ferris-rescue:SW_PUSH-kbd K1_7
 U 1 1 5FD3AE31
 P 8850 1800
 F 0 "K1_7" H 8850 2033 60  0000 C CNN
@@ -662,7 +662,7 @@ F 6 "Key" H 8850 1800 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D1_7
+L ferris-rescue:D-Device D1_7
 U 1 1 5FD3AE3E
 P 8550 1950
 F 0 "D1_7" V 8596 1870 50  0000 R CNN
@@ -675,7 +675,7 @@ F 5 "Diode" H 8550 1950 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH K2_5
+L ferris-rescue:SW_PUSH-kbd K2_5
 U 1 1 5FD3AE48
 P 7450 2400
 F 0 "K2_5" H 7450 2633 60  0000 C CNN
@@ -689,7 +689,7 @@ F 6 "Key" H 7450 2400 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D2_5
+L ferris-rescue:D-Device D2_5
 U 1 1 5FD3AE53
 P 7150 2550
 F 0 "D2_5" V 7196 2470 50  0000 R CNN
@@ -702,7 +702,7 @@ F 5 "Diode" H 7150 2550 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH K2_6
+L ferris-rescue:SW_PUSH-kbd K2_6
 U 1 1 5FD3AE5F
 P 8150 2400
 F 0 "K2_6" H 8150 2633 60  0000 C CNN
@@ -716,7 +716,7 @@ F 6 "Key" H 8150 2400 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH K2_7
+L ferris-rescue:SW_PUSH-kbd K2_7
 U 1 1 5FD3AE69
 P 8850 2400
 F 0 "K2_7" H 8850 2633 60  0000 C CNN
@@ -733,7 +733,7 @@ Wire Wire Line
 	7850 2100 8550 2100
 Connection ~ 7850 2100
 $Comp
-L Device:D D2_6
+L ferris-rescue:D-Device D2_6
 U 1 1 5FD3AE79
 P 7850 2550
 F 0 "D2_6" V 7896 2470 50  0000 R CNN
@@ -746,7 +746,7 @@ F 5 "Diode" H 7850 2550 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D2_7
+L ferris-rescue:D-Device D2_7
 U 1 1 5FD3AE83
 P 8550 2550
 F 0 "D2_7" V 8596 2470 50  0000 R CNN
@@ -767,7 +767,7 @@ Connection ~ 7850 2700
 Wire Wire Line
 	7850 2700 8550 2700
 $Comp
-L kbd:SW_PUSH K0_8
+L ferris-rescue:SW_PUSH-kbd K0_8
 U 1 1 5FD3AE92
 P 9550 1200
 F 0 "K0_8" H 9550 1433 60  0000 C CNN
@@ -781,7 +781,7 @@ F 6 "Key" H 9550 1200 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH K1_8
+L ferris-rescue:SW_PUSH-kbd K1_8
 U 1 1 5FD3AE9C
 P 9550 1800
 F 0 "K1_8" H 9550 2033 60  0000 C CNN
@@ -795,7 +795,7 @@ F 6 "Key" H 9550 1800 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH K2_8
+L ferris-rescue:SW_PUSH-kbd K2_8
 U 1 1 5FD3AEA6
 P 9550 2400
 F 0 "K2_8" H 9550 2633 60  0000 C CNN
@@ -809,7 +809,7 @@ F 6 "Key" H 9550 2400 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D0_8
+L ferris-rescue:D-Device D0_8
 U 1 1 5FD3AEB0
 P 9250 1350
 F 0 "D0_8" V 9296 1270 50  0000 R CNN
@@ -822,7 +822,7 @@ F 5 "Diode" H 9250 1350 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D1_8
+L ferris-rescue:D-Device D1_8
 U 1 1 5FD3AEBA
 P 9250 1950
 F 0 "D1_8" V 9296 1870 50  0000 R CNN
@@ -835,7 +835,7 @@ F 5 "Diode" H 9250 1950 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D2_8
+L ferris-rescue:D-Device D2_8
 U 1 1 5FD3AEC4
 P 9250 2550
 F 0 "D2_8" V 9296 2470 50  0000 R CNN
@@ -848,7 +848,7 @@ F 5 "Diode" H 9250 2550 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH K0_9
+L ferris-rescue:SW_PUSH-kbd K0_9
 U 1 1 5FD3AECE
 P 10250 1200
 F 0 "K0_9" H 10250 1433 60  0000 C CNN
@@ -862,7 +862,7 @@ F 6 "Key" H 10250 1200 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D0_9
+L ferris-rescue:D-Device D0_9
 U 1 1 5FD3AED8
 P 9950 1350
 F 0 "D0_9" V 9996 1270 50  0000 R CNN
@@ -875,7 +875,7 @@ F 5 "Diode" H 9950 1350 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH K1_9
+L ferris-rescue:SW_PUSH-kbd K1_9
 U 1 1 5FD3AEE2
 P 10250 1800
 F 0 "K1_9" H 10250 2033 60  0000 C CNN
@@ -889,7 +889,7 @@ F 6 "Key" H 10250 1800 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D1_9
+L ferris-rescue:D-Device D1_9
 U 1 1 5FD3AEEC
 P 9950 1950
 F 0 "D1_9" V 9996 1870 50  0000 R CNN
@@ -902,7 +902,7 @@ F 5 "Diode" H 9950 1950 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH K2_9
+L ferris-rescue:SW_PUSH-kbd K2_9
 U 1 1 5FD3AEF6
 P 10250 2400
 F 0 "K2_9" H 10250 2633 60  0000 C CNN
@@ -916,7 +916,7 @@ F 6 "Key" H 10250 2400 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D2_9
+L ferris-rescue:D-Device D2_9
 U 1 1 5FD3AF00
 P 9950 2550
 F 0 "D2_9" V 9996 2470 50  0000 R CNN
@@ -961,7 +961,7 @@ Wire Wire Line
 	850  3300 3150 3300
 Connection ~ 3150 3300
 $Comp
-L kbd:SW_PUSH K3_5
+L ferris-rescue:SW_PUSH-kbd K3_5
 U 1 1 5FD3AF30
 P 7450 3000
 F 0 "K3_5" H 7450 3233 60  0000 C CNN
@@ -975,7 +975,7 @@ F 6 "Key" H 7450 3000 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D3_5
+L ferris-rescue:D-Device D3_5
 U 1 1 5FD3AF4E
 P 7150 3150
 F 0 "D3_5" V 7196 3070 50  0000 R CNN
@@ -990,7 +990,7 @@ $EndComp
 Wire Wire Line
 	7150 3300 7850 3300
 $Comp
-L Device:D D3_6
+L ferris-rescue:D-Device D3_6
 U 1 1 5FD3AF58
 P 7850 3150
 F 0 "D3_6" V 7896 3070 50  0000 R CNN
@@ -1013,7 +1013,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 2100 7150 2100
 $Comp
-L Device:D D1_5
+L ferris-rescue:D-Device D1_5
 U 1 1 5FD3ADDD
 P 7150 1950
 F 0 "D1_5" V 7196 1870 50  0000 R CNN
@@ -1026,7 +1026,7 @@ F 5 "Diode" H 7150 1950 50  0001 C CNN "Part Name"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH K1_5
+L ferris-rescue:SW_PUSH-kbd K1_5
 U 1 1 5FD3ADD3
 P 7450 1800
 F 0 "K1_5" H 7450 2033 60  0000 C CNN
@@ -1040,7 +1040,7 @@ F 6 "Key" H 7450 1800 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH K3_6
+L ferris-rescue:SW_PUSH-kbd K3_6
 U 1 1 5FD3AF3A
 P 8150 3000
 F 0 "K3_6" H 8150 3233 60  0000 C CNN
@@ -1054,7 +1054,7 @@ F 6 "Key" H 8150 3000 50  0001 C CNN "Part Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L kbd:SW_PUSH K0_2
+L ferris-rescue:SW_PUSH-kbd K0_2
 U 1 1 5EE8C569
 P 2750 1200
 F 0 "K0_2" H 2750 1433 60  0000 C CNN
@@ -1162,7 +1162,7 @@ Connection ~ 10550 1800
 Wire Wire Line
 	10550 1800 10550 2400
 $Comp
-L kbd:ProMicro_r U1
+L ferris-rescue:ProMicro_r-kbd U1
 U 1 1 615CD509
 P 5500 3000
 F 0 "U1" H 5550 3987 60  0000 C CNN
@@ -1172,36 +1172,34 @@ F 3 "" H 5650 1950 60  0000 C CNN
 	1    5500 3000
 	1    0    0    -1  
 $EndComp
-Text Label 4850 3100 2    50   ~ 0
-row0,3
-Text Label 4850 3400 2    50   ~ 0
-row0,0
-Text Label 4850 3300 2    50   ~ 0
-row0,1
-Text Label 4850 3200 2    50   ~ 0
-row0,2
 Text Label 4850 2700 2    50   ~ 0
-col0
-Text Label 4850 2800 2    50   ~ 0
-col1
-Text Label 6250 2700 0    50   ~ 0
-col2
-Text Label 6250 2800 0    50   ~ 0
-col3
+row0,3
 Text Label 6250 2900 0    50   ~ 0
+row0,0
+Text Label 4850 2900 2    50   ~ 0
+row0,1
+Text Label 4850 2800 2    50   ~ 0
+row0,2
+Text Label 4850 3000 2    50   ~ 0
+col0
+Text Label 4850 3100 2    50   ~ 0
+col1
+Text Label 4850 3200 2    50   ~ 0
+col2
+Text Label 4850 3300 2    50   ~ 0
+col3
+Text Label 4850 3400 2    50   ~ 0
 col4
-Text Label 6250 3000 0    50   ~ 0
+Text Label 6250 3400 0    50   ~ 0
 col5
-Text Label 6250 3100 0    50   ~ 0
+Text Label 6250 3300 0    50   ~ 0
 col6
 Text Label 6250 3200 0    50   ~ 0
 col7
-Text Label 6250 3300 0    50   ~ 0
+Text Label 6250 3100 0    50   ~ 0
 col8
-Text Label 6250 3400 0    50   ~ 0
+Text Label 6250 3000 0    50   ~ 0
 col9
-NoConn ~ 4850 3000
-NoConn ~ 4850 2900
 NoConn ~ 4850 2600
 NoConn ~ 4850 2500
 NoConn ~ 4850 2400
@@ -1222,4 +1220,6 @@ Text Label 7000 3300 2    50   ~ 0
 row0,3
 NoConn ~ 6250 2400
 NoConn ~ 6250 2300
+NoConn ~ 6250 2700
+NoConn ~ 6250 2800
 $EndSCHEMATC

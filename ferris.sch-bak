@@ -1180,11 +1180,11 @@ Text Label 4850 2900 2    50   ~ 0
 row0,1
 Text Label 4850 2800 2    50   ~ 0
 row0,2
-Text Label 4850 3200 2    50   ~ 0
+Text Label 4850 3000 2    50   ~ 0
 col0
 Text Label 4850 3100 2    50   ~ 0
 col1
-Text Label 4850 3000 2    50   ~ 0
+Text Label 4850 3200 2    50   ~ 0
 col2
 Text Label 4850 3300 2    50   ~ 0
 col3
@@ -1194,11 +1194,11 @@ Text Label 6250 3400 0    50   ~ 0
 col5
 Text Label 6250 3300 0    50   ~ 0
 col6
-Text Label 6250 3000 0    50   ~ 0
+Text Label 6250 3200 0    50   ~ 0
 col7
 Text Label 6250 3100 0    50   ~ 0
 col8
-Text Label 6250 3200 0    50   ~ 0
+Text Label 6250 3000 0    50   ~ 0
 col9
 NoConn ~ 4850 2600
 NoConn ~ 4850 2500

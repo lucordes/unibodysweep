@@ -1,4 +1,7 @@
+![Image alt text](front.png?raw=true "Purple front")
 
-edited the ferris files to create this
-Ferris 0.2
+Edited the ferris to get a Unibodysweep.
+
+Halfs are angled 40deg (2/9pi) to another.
+
 
